@@ -1,0 +1,12 @@
+# 데이터와 체크포인트 (가이드라인 5-1, 6-5절: 올리지 않음)
+data/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.tar
+*.zip
+
+# 실행 중 생기는 파일
+.ipynb_checkpoints/
+__pycache__/
