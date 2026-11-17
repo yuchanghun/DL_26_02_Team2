@@ -13,3 +13,6 @@ __pycache__/
 
 # 뽑은 특징 캐시
 cache/
+
+# 저장소에 올리지 않는 확인용 노트북
+05_whisper_시험*.ipynb
