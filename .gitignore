@@ -10,3 +10,6 @@ checkpoints/
 # 실행 중 생기는 파일
 .ipynb_checkpoints/
 __pycache__/
+
+# 뽑은 특징 캐시
+cache/
