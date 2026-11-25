@@ -35,6 +35,8 @@
 
 ± 는 시드 사이 표준편차. 그림: figs/15_confusion_matrix.png, figs/15_team_model_b_curves.png
 
+검증 예측: [results/val_predictions_A_B.csv](results/val_predictions_A_B.csv) (15의 시드 0, 9,400줄). 열: path(녹음 경로), word(실제 단어), group(명령어·명령 아님 단어·잡음), label(정답), pred_A·pred_B(예측), conf_B(B의 확신도), A_correct·B_correct(맞았는지). 오류 분석(틀린 녹음 듣기)용.
+
 ## 실험 결과: 11개 클래스 (검증 묶음 9,400개)
 | 번호 | 설정 | 정확도 | 매크로 F1 | 오작동(아는 단어) | 오작동(잡음) | 놓침 | 명령 혼동 |
 |---|---|---|---|---|---|---|---|
